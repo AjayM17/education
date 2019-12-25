@@ -10,6 +10,7 @@ import {
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/home/home'
+import About from './pages/about/about'
 import Header from './component/header/header'
 
 
@@ -23,6 +24,9 @@ function App() {
       <Switch>
         <Route path="/home">
           <Home />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>
