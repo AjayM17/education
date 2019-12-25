@@ -11,7 +11,7 @@
 .list{
     border-radius: 5px 5px 0px 0px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec));
-    cursor: pointer;
+  
     list-style-type: none;
     /* display: flex; */
     padding: 1px;
@@ -22,15 +22,12 @@
 
 .list-item{
     text-align: center;
-   padding: 10px;;
+    padding: 15px 7px;
     font-size: 14px;
     color: #1C32CA;
-   
+    cursor: pointer;
 }
 .list-item.active{
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
     background-color: #ececec;
    
 }

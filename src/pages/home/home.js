@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import { Carousel } from 'react-bootstrap';
 
-function Home() {
+const Home = ()  => {
   return (
     <div style={{ backgroundColor: 'white', padding:'8px'}}>
       <Carousel>

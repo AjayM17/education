@@ -1,0 +1,19 @@
+.bannerImage{
+    width: 100%;
+    background: url(http://himgirieducation.com/home/pics/a6.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background{
+    background-color: white;
+    padding: 8px;
+   
+}
+
+.section{
+ margin-left: 0px;
+ margin-right: 0px;
+    margin-top: 10px;
+}

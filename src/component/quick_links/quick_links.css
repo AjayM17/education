@@ -1,0 +1,22 @@
+.quick_links_list{
+    text-align: center;
+    background-color: #435F9C;
+    color: #fff;
+    margin: 8px 0px;
+    padding: 4px 0px;
+   
+}
+
+.quick_links_item{
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick_links_item li{
+    color: #232456;
+    margin: 0px;
+    padding: 7px 10px;
+    text-align: center;
+    border-bottom: 1px dashed #a1a1a1;
+   
+}
