@@ -7,11 +7,12 @@ import {
   Redirect,
   useRouteMatch
 } from "react-router-dom";
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './pages/home/home'
 import About from './pages/about/about'
 import Header from './component/header/header'
+import Footer from './component/footer/footer'
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Redirect from="/" to="/home" />
       </Switch>
     </Router>
+    <Footer/>
     </div>
   );
 }
