@@ -1,0 +1,36 @@
+.listFirst{
+    text-align: center;
+    background-color: #435F9C;
+    color: #fff;
+    margin: 8px 0px;
+    padding: 4px 0px
+}
+
+.listSecond{
+    text-align: center;
+    color: #0000ee;
+    font-size: 14px;
+    margin-bottom: 8px
+
+}
+
+.listThird {
+    background-image: url(http://himgirieducation.com/home/Hme%20Pics/Contact%20Us.jpg);
+    height: 128px;
+    background-repeat: no-repeat;
+    margin: 8px 0px;
+    /* margin: 8px 22px; */
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.listFourth{
+    box-shadow: 0 8px 6px -6px #a1a1a1;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #435F9C;
+    color: #fff;
+    margin: 8px 0px;
+    /* margin: 8px 22px; */
+    padding: 4px 0px
+}

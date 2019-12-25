@@ -1,3 +1,8 @@
 .containor{
     padding: 20px 56px;
 }
+
+.divider{
+    border: 2px solid #f32a31;
+    margin: 12px 0px;
+}

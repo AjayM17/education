@@ -1,40 +1,36 @@
 
+.header-logo{
+    background-image: url('http://himgirieducation.com/home/pics/latestlogo.png');
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 15px;
+}
 
 .list{
+    border-radius: 5px 5px 0px 0px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec));
     cursor: pointer;
     list-style-type: none;
-    display: flex;
-    padding: 0px;
-    margin-bottom: 0px;;
+    /* display: flex; */
+    padding: 1px;
+    margin: 0px;
     border-radius:5px 5px 0px 0px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec))
+   
 }
 
 .list-item{
-    padding: 10px;
-    margin: auto;
+    text-align: center;
+   padding: 10px;;
     font-size: 14px;
     color: #1C32CA;
    
 }
 .list-item.active{
     padding: 10px;
-    margin: auto;
+    text-align: center;
     font-size: 14px;
     background-color: #ececec;
    
-}
-
-.list-item.active::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #576C9C;
-    margin-left: -10px;
 }
