@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import QuickLinks from '../../component/quick_links/quick_links';
 
 function About() {
 
@@ -18,8 +19,10 @@ function About() {
 			<div style={{ backgroundColor: 'white', padding:'8px'}}>
 				<div className="container">
 					<div className="row">
-						<div className="col-md-4"></div>
-						<div className="col-md-8">
+						<div className="col-md-3">
+							<QuickLinks />
+						</div>
+						<div className="col-md-9">
 							<h1 style={{marginLeft:"175px"}}>ABOUT US</h1>
 							<div align="left" style={{backgroundColor:"#435F9C", color:"#FFF", paddingLeft:"8px"}}>
 								<b>Achieve Institute of Hotel Management</b>
