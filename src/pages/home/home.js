@@ -3,8 +3,6 @@ import './home.css';
 import { Carousel } from 'react-bootstrap';
 
 function Home() {
-
-  // console.log(match)
   return (
     <div style={{ backgroundColor: 'white', padding:'8px'}}>
       <Carousel>

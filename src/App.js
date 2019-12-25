@@ -10,6 +10,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './pages/home/home'
+import About from './pages/about/about'
 import Header from './component/header/header'
 import Footer from './component/footer/footer'
 
@@ -24,6 +25,9 @@ function App() {
       <Switch>
         <Route path="/home">
           <Home />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>
