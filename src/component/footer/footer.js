@@ -14,22 +14,28 @@ function Footer() {
                     HEAD OFFICE:
                     </div>
                     <div>
-                    Himgiri Management Education,
+                        ACHIEVE MANAGEMENT EDUCATION
                     </div>
                     <div>
-                    School of Hotel & Catering Education
+                        Achieve Institute Of Hotel Management,
                     </div>
                     <div>
-                    334 Harbanswala, Indra Enclave
+                        Barhani near Patrol Pump, 262401 (U.K.)
                     </div>
                     <div>
-                    PO Mehuwala Dehradun-248171 (U.K.)
+                        India
+                    </div>
+                    <div style={{marginTop:"8px"}}>
+                        Phone: +91-7668917050, +91-7252036050    
+                    </div>
+                    <div>
+                        E-mail: instituteachieve@gmail.com    
                     </div>
                 </div>
             </div>
 
             <div className="col-md-6">
-
+                
             </div>
            
         </div>
