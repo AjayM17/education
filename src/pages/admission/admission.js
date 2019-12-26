@@ -1,13 +1,13 @@
 import React from 'react';
-import './course.css';
+import './admission.css';
 import QuickLinks from '../../component/quick_links/quick_links'
 
-const Course = () => {
+const Admission = () => {
     return (
         <div>
             <div className=" background">
-                <div className="banner-tag">Courses</div>
-            <img className="d-block w-100" src="http://himgirieducation.com/home/pics/a6.jpg" alt="course"></img>
+                <div className="banner-tag">Admission</div>
+            <img className="d-block w-100" src="http://himgirieducation.com/home/pics/admission.jpg" alt="admission"></img>
             </div>
             <div className="row background section">
                 <div className="col-md-3">
@@ -25,4 +25,4 @@ const Course = () => {
     );
 }
 
-export default Course;
+export default Admission;

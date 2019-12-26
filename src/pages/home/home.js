@@ -3,10 +3,45 @@ import './home.css';
 import { Carousel } from 'react-bootstrap';
 
 const Home = ()  => {
+let sliderImages = [
+    {
+      'id' : 1,
+      'url' : 'http://himgirieducation.com/home/pics/placementslide.jpg'
+    },
+    {
+      'id' : 2,
+      'url' : 'http://himgirieducation.com/home/pics/makeit%20copy.jpg'
+    },
+    {
+      'id' : 3,
+      'url' : 'http://himgirieducation.com/home/pics/newstudent.jpg'
+    },
+    {
+      'id' : 4,
+      'url' : 'http://himgirieducation.com/home/gallery/institute%20building.jpg'
+    },
+    {
+      'id' : 5,
+      'url' : 'http://himgirieducation.com/home/pics/housekeeping.png'
+    }
+  ]
   return (
     <div style={{ backgroundColor: 'white', padding:'8px'}}>
       <Carousel>
-        <Carousel.Item>
+        {
+          sliderImages.map( data => (
+            <Carousel.Item key={data.id}>
+            <img
+              className="d-block w-100"
+              src={data.url}
+              alt="slide"
+            />
+          </Carousel.Item>
+          ))
+        }
+
+
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="http://himgirieducation.com/home/pics/housekeeping.png"
@@ -40,7 +75,7 @@ const Home = ()  => {
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     
         <div className="row">
