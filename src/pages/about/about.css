@@ -1,4 +1,37 @@
-h1 {
+.bannerImage{
+    width: 100%;
+    background: url(http://himgirieducation.com/home/pics/a6.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-tag{
+    padding: 8px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    margin-bottom: 0;
+    background: rgba(68,68,68,.8);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    font-size: 1.5em;
+}
+
+.background{
+    background-color: white;
+    padding: 8px;
+    position: relative;
+}
+
+.section{
+ margin-left: 0px;
+ margin-right: 0px;
+    margin-top: 10px;
+}
+
+
+
+/* h1 {
     font-size: 2.2em;
     font-weight: bold;
     line-height: 1.2em;
@@ -6,4 +39,4 @@ h1 {
     text-transform: uppercase;
     font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
     color: #444;
-}
+} */
