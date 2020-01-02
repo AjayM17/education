@@ -17,6 +17,7 @@
     font-size: 1.5em;
 }
 
+
 .background{
     background-color: white;
     padding: 8px;
@@ -27,4 +28,24 @@
  margin-left: 0px;
  margin-right: 0px;
     margin-top: 10px;
+}
+
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 18px 0px;
+}
+
+.sub-heading{
+    background-color: #435F9C;
+    color: #FFF;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+label{
+    font-weight: bold;
 }
