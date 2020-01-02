@@ -28,3 +28,8 @@
  margin-right: 0px;
     margin-top: 10px;
 }
+.facilitiesUL {
+	margin-top:10px;
+	padding: 0px 18px;
+    line-height: 30px;
+}
