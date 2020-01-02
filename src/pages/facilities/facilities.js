@@ -14,7 +14,25 @@ const Facilities = () => {
                     <QuickLinks />
                 </div>
                 <div className="col-md-9">
-
+                    <h1 style={{marginLeft:"175px"}}>Facilities</h1>
+                    <div align="left" style={{backgroundColor:"#435F9C", color:"#FFF", paddingLeft:"8px"}}>
+                        <b>Institute's Facilities</b>
+                    </div>
+                    <ul className="facilitiesUL">
+                        <li>
+                            100% Placement Facility in India with 4 to 5 Star Hotels, Cruise Liners, Multi-National 
+                            Companies (MNCs).
+                        </li>
+                        <li>Visit to : Dubai/Thailand/Malasia/Abu-Dhabi for projects.</li>
+                        <li>Frequently Hotel Visit.</li>
+                        <li>Industrial Training & Internship anywhere in India.</li>
+                        <li>Modern Teaching Facility.</li>
+                        <li>Live Assignment, Project based and Roll Play Learning.</li>
+                        <li>Lectures by Management & Hotelier Gurus.</li>
+                        <li>Personality Development (P.D.) Session.</li>
+                        <li>Wi-Fi.</li>
+                        <li>Library</li>
+                    </ul>
                 </div>
 
             </div>

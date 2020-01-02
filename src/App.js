@@ -20,6 +20,7 @@ import Facilities from './pages/facilities/facilities'
 import Contact from './pages/contact/contact'
 import Admission from './pages/admission/admission'
 import Student from './pages/student/student'
+import Admin from './pages/admin/admin'
 
 const App = () => {
   let history = useHistory();
@@ -91,6 +92,9 @@ const App = () => {
         </Route>
         <Route path='/student'>
           <Student />
+        </Route>
+        <Route path="/admin">
+          <Admin />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>
