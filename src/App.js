@@ -60,7 +60,7 @@ const App = () => {
       activePath = 'home'
   }
   return (
-    <div className="mx-lg-5 mx-3">
+    <div>
       <Header activePath={activePath} />
       <Switch>
         <Route path="/home">

@@ -20,3 +20,8 @@
     border-bottom: 1px dashed #a1a1a1;
    
 }
+
+.quick_links_item li:hover{
+    color: #990000;
+    cursor: pointer;
+}

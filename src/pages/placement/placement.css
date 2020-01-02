@@ -28,3 +28,9 @@
  margin-right: 0px;
     margin-top: 10px;
 }
+
+.img-border{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff
+}
