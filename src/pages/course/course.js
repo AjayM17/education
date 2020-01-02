@@ -20,6 +20,7 @@ const Course = () => {
                     <div className="sub-heading">
                     CONTACT US
                     </div>
+                    
                 </div>
 
             </div>
