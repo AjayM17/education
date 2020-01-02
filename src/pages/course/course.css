@@ -43,3 +43,15 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+.course_bg{
+    margin-top: 26px;
+    padding: 12px 12px
+}
+
+.course_heading{
+    font-weight: bold;
+    margin-right: 8px;
+    color: #444;
+    font-size: 14px;
+}
