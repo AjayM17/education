@@ -76,18 +76,36 @@ const Course = () => {
                         COURSES
                     </div>
                     <div className="sub-heading">
-                    COURSES
+                        COURSES
                     </div>
-
-                    {
-                        course.map(data => (
-                            <div key={data.id} style={{backgroundColor : data.bg_color}} className="course_bg">
-                                <div className="course_heading"><span style={{ marginRight: '8px'}}>{data.id}</span>{data.name}</div>
-                        <div><span className="course_heading">Duration :</span>{data.tenure}</div>
-                        <div><span className="course_heading">Eligibility :</span>{data.eligibility}</div>
-                            </div>
-                        ))
-                    }
+                    <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">COURSES LIST</th>
+                                <th scope="col">TENURE</th>
+                                <th scope="col">COURSES NAME</th>
+                                <th scope="col">ELIGIBILITY</th>
+                                <th scope="col">SCOPES</th>
+                                <th scope="col">PLACES  OF PLACEMENTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                course.map(data => (
+                                    <tr>
+                                        <td className="course_heading"><strong> {data.courses_list}</strong></td>
+                                        <td  className="course_heading">{data.tenure}</td>
+                                        <td  className="course_heading">{data.name}</td>
+                                        <td  className="course_heading">{data.eligibility}</td>
+                                        <td  className="course_heading">{data.scopes}</td>
+                                        <td  className="course_heading">{data.placement}</td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
+                    </div>
                 </div>
 
             </div>
