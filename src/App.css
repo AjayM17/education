@@ -1,5 +1,9 @@
 .containor{
-    padding: 20px 56px;
+    /* padding: 20px 56px; */
+    padding-top: 20px;
+    padding-left: 56px;
+    padding-right: 56px;
+
 }
 
 .divider{

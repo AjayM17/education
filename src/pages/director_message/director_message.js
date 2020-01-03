@@ -22,18 +22,11 @@ const DirectorMessage = () => {
                     </div>
 
                     <div className="sub-heading2">
-                        Educating beyond the curriculum is one of the most important characteristic of Himgiri education. It offers a learning environment which allows students to develop their creativity, work ethics, management and leadership skills which are essential for future success..
+                    Achieve institute of hotel management is established to prepare qualified hospitality professionals. 
+We instill concurrent methods and practices to ensure we deliver par excellence professionals In the hotel industry.
+The learning and development imparted in our Institute also helps our students to progress professionally as well as personally
+We encourage you to explore options and talk to us to help you understand what better suits your needs
                     </div>
-
-                    <div className="sub-heading2">
-                        Students at Himgiri will not only learn about Hotel Management, Sai Carving, service skills and kitchen operations.
-    Our goal is to create an environment where students learn to tackle difficult and complex problem by probing, discussing and integrating, working together towards an understanding, much deeper than making decisions and taking responsibilities.
-                        </div>
-
-                    <div className="sub-heading2">
-                        We look forward to welcoming you to our Organization.
-                        </div>
-
                     <div className="sub-heading1">
                     Naveen Shah (Masters in Hotel Management) <br/>
                     Director

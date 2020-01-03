@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import QuickLinks from '../../component/quick_links/quick_links'
 
-const  About = () => {
+const About = () => {
 
 	return (
 		<div>
@@ -15,37 +15,42 @@ const  About = () => {
 					<QuickLinks />
 				</div>
 				<div className="col-md-9">
-					<h1>ABOUT US</h1>
-					<div className="head2">
-						<b>About Achieve Institute of Hotel Management</b>
-		 			</div>
-		 			<p className="aboutContent">
-		 				<br/>
+					<div className="heading">
+						ABOUT US
+                    </div>
+					<div className="sub-heading">
+						About Achieve Institute of Hotel Management
+                    </div>
+
+
+					<div className="sub-heading2">
 						Achieve Institute of Hotel Management, under the patronage “Hillyans Educational Society”
-						having Registration No. 507/2003-2004 with 01 years, supporting the cause of value based
-						education, offering education ranging Diplomas in Hospitality. The hospitality industry is an
-						exciting, dynamic and international industry in which to forge your career.  Thanks to Achieve
-						Institute of Hotel Managements’ strong industry links, you’ll be able to discover the major
-						hospitality employers through our national Recruitment Forum.
-						<br/>
+							having Registration No. 507/2003-2004 with 01 years, supporting the cause of value based
+							education, offering education ranging Diplomas in Hospitality. The hospitality industry is an
+							exciting, dynamic and international industry in which to forge your career.  Thanks to Achieve
+							Institute of Hotel Managements’ strong industry links, you’ll be able to discover the major
+							hospitality employers through our national Recruitment Forum.
+						<br />
 						Imagine a career that takes you all over the world where you have the skills and confidence to be a leader in your chosen field.
-						<br/><br/>
+						<br /><br />
 						<strong>Exciting career options</strong>
-						<br/><br/>
+						<br /><br />
 						Achieve Institute of Hotel Management, Barhani (Bazpur) U.S.Nagar(UK) India is waiting to place
 						the students on thousands vacant positions in Hospitality sector. Be inspired! Read some of the
 						stories of many successful alumni and help your career path take off.
-						<br/><br/>
-						As well as academic study, you’ll gain real experience from hands-on learning. Fromday one, you’ll 
-						live and study in a hotel atmosphere. During the live-in semesters, you’ll take on a number of hotel 
-						management responsibilities. From guest relations, front office management and food and beverage to 
-						housekeeping and property management, you’ll gain real experience in all aspects of hotel management & 
+						<br /><br />
+						As well as academic study, you’ll gain real experience from hands-on learning. Fromday one, you’ll
+						live and study in a hotel atmosphere. During the live-in semesters, you’ll take on a number of hotel
+						management responsibilities. From guest relations, front office management and food and beverage to
+						housekeeping and property management, you’ll gain real experience in all aspects of hotel management &
 						Cruise Operation & Management.
-						<br/><br/>
-						Along with the practical experience and the academic studies, your lecturers stress the importance of 
+						<br /><br />
+						Along with the practical experience and the academic studies, your lecturers stress the importance of
 						professional work behaviours, such as attitude, punctuality, attendance and presentation to ensure that
 						 you develop your management potential.
- 					</p>
+                    </div>
+
+					
 				</div>
 
 			</div>

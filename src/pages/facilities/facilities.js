@@ -14,11 +14,14 @@ const Facilities = () => {
                     <QuickLinks />
                 </div>
                 <div className="col-md-9">
-                    <h1 style={{marginLeft:"175px"}}>Facilities</h1>
-                    <div align="left" style={{backgroundColor:"#435F9C", color:"#FFF", paddingLeft:"8px"}}>
-                        <b>Institute's Facilities</b>
+                <div className="heading">
+                       FACILITIES
                     </div>
-                    <ul className="facilitiesUL">
+                    <div className="sub-heading">
+                    Institute's Facilities
+                    </div>
+                    
+                    <ul className="sub-heading2">
                         <li>
                             100% Placement Facility in India with 4 to 5 Star Hotels, Cruise Liners, Multi-National 
                             Companies (MNCs).
